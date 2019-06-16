@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right bottom, #7808a8, #8a25b8, #9b39c8, #ad4bd8, #bf5de9);
+  font-family: 'Roboto', sans-serif;
+}
+
+#output {
+  padding: 20px;
+  text-align: center;
+
+}
+
+textarea {
+resize: none;
+	width: 400px;
+	min-height: 100px;
+	padding: 5px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
