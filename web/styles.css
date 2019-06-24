@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 html, body {
+  padding: 80px;
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   /*background-image: linear-gradient(to right bottom, #7808a8, #8a25b8, #9b39c8, #ad4bd8, #bf5de9);*/
   background:#fff;
   font-family: 'Roboto', sans-serif;
@@ -18,6 +19,7 @@ html, body {
     font-weight: 700;
     text-shadow: 2px 1px #443f3f;
 }
+
 textarea#note {
     border: 0;
     overflow: hidden;
@@ -29,6 +31,7 @@ textarea#note {
 	box-sizing: border-box;
 	height: 10rem;
 }
+
 textarea#note:focus {
     outline-width: 0;
 }
@@ -37,19 +40,34 @@ textarea#note::placeholder{
 	
 	    color: #6b5e5e;
 }
-.card {
-    border-radius: 6px !important;
-      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-}
 .card-action {
     width: 100%;
     display: inline-flex;
     justify-content: flex-end;
-	    padding: 16px 0px;
-} .material-icons {
+	padding: 16px 0px;
+}
+.material-icons {
     color: #808080;
 }
-.card .material-icons {
+  .material-icons {
     color: #fff;
+}
+
+  textarea#note {
+        padding: 20px;
+
+}
+
+
+
+.card {
+    border-radius: 6px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.m3 {
+    border-radius: 6px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }
